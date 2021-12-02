@@ -2003,7 +2003,7 @@ input = """149
 8895"""
 
 # Split by line to an array
-array = [str.strip() for str in input.splitlines()]
+array = input.splitlines()
 
 count = 0
 for index, item in enumerate(array):
