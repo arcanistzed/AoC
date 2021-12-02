@@ -2007,6 +2007,6 @@ array = input.splitlines()
 
 count = 0
 for index, item in enumerate(array):
-    if item > array[index-1]:
+    if int(item) > int(array[index - 1]):
         count += 1
 print(count)
